@@ -12,4 +12,4 @@ if __name__== '__main__':
 	if command == 'add':
 		print(add_all(nums))
 	elif command == 'multiply':
-		print(multiply_all(sums))
+		print(multiply_all(nums))
