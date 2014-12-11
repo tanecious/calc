@@ -1,4 +1,11 @@
 import sys
-if _name_ == '_main_':
-print(sum(map(float, sys.argv[1:])))
+
+def add_all(nums):
+	return sum(nums)
+
+if __name__== '__main__':
+	command = sys.argv[1]
+	nums = map(float, sys.argv[2:])
+	if command == 'add':
+		print(add_all(nums))
 
