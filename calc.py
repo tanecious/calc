@@ -1,4 +1,4 @@
 import sys
 if _name_ == '_main_':
-print(sum(map(int, sys.argv[1:])))
+print(sum(map(float, sys.argv[1:])))
 
